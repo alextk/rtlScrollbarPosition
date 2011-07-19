@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>scrollUtils example</title>
+  <!-- Include latest jQuery -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- Include plugin code testing framework -->
+  <script type="text/javascript" src="../dist/jquery.rtl-scrollbar-position.js"></script>
+
+  <!-- Include project source files -->
+  <!-- Include unit test files -->
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('div.position span.value').html($.rtlScrollbarPosition());
+    });
+
+  </script>
+
+  <style type="text/css">
+    body{
+      direction: rtl;
+    }
+    div.parent {
+      width: 200px;
+      height: 100px;
+      background-color: #efefef;
+      border: 1px solid #333;
+      overflow-y: auto;
+    }
+
+    div.parent div.child{
+      background-color: #e0ffff;
+      height: 150px;
+    }
+
+    div.position{
+      width: 200px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    div.position span.value{
+      background-color: #ffa07a;
+      padding: 5px;
+    }
+
+  </style>
+</head>
+<body>
+
+<h1>RTL Scrollbar position example</h1>
+
+<div class="parent">
+  <div class="child">i'm a child</div>
+</div>
+<div class="position"><span>Position is: </span><span class="value"></span></div>
+
+</body>
+</html>
