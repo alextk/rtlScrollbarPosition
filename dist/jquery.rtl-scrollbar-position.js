@@ -1,14 +1,15 @@
 /*
-* rtlScrollbarPosition - jQuery plugin for rendering dialog
+* jqDialog - jQuery plugin for creating dialog hovering div
 *
-* Version: 0.0.1a
+* Version: 0.0.1
+* Build: 26
 * Copyright 2011 Alex Tkachev
 *
 * Dual licensed under MIT or GPLv2 licenses
 *   http://en.wikipedia.org/wiki/MIT_License
 *   http://en.wikipedia.org/wiki/GNU_General_Public_License
 *
-* Date: Tue Jul 19 12:23:58 2011 +0300
+* Date: 13 Dec 2011 21:45:26
 */
 
 (function($) {
