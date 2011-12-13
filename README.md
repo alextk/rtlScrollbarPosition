@@ -1,4 +1,4 @@
-# [rtlScrollbarPosition]() - jQuery plugin for progress bar ui widget
+# [rtlScrollbarPosition]() - jQuery plugin calculating rtl scrollbar position
 ================================
 
 Dependencies

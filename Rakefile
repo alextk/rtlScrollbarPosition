@@ -7,8 +7,8 @@ gem 'rake-hooks'
 require 'rake/hooks'
 
 project = JsProjectBuilder.new(
-  :name => 'jqDialog',
-  :description => 'jQuery plugin for creating dialog hovering div',
+  :name => 'rtlScrollbarPosition',
+  :description => 'jQuery plugin calculating rtl scrollbar position',
   :file_name => 'jquery.rtl-scrollbar-position.js',
   :js_files => %w{rtl-scrollbar-position.js}
 )
